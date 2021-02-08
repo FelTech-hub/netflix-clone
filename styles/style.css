@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+/* Header Section */
+header {
+    background-color: #000000;
+    height: 70px;
+    color: white;
+}
+
+/* NAvabr styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+/* Logo Brand */
+.Logo-Brand {
+    display: flex;
+    align-items: center;
+}
+
+.Logo-Brand span {
+    margin-left: .5rem;
+}
+
+/* Nav Styling */
+.nav-navbar {
+    display: flex;
+     list-style: none;
+     align-items: center;
+}
+
+.nav-item {
+    margin-right: .5rem;
+}
+
+
+.nav-item .nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .7rem;
+    color: #fff;
+}
+
+.nav-item .join {
+    border: 2px solid #fff;
+    padding: .5rem .8rem;
+    border-radius: .5rem;
+}
+/* Join section */
+.nav-item .join:hover {
+    background-color: #fff;
+    color: #000000;
+    transition: all .2s ease-in-out;
+  
+}
+
+/* login Section */
+.nav-item .sign {
+    padding: .5rem .8rem;
+    border-radius: .5rem;
+    background-color: #FF4B4B;
+}
+
+/* Showcase Section */
+section .py-5 {
+    padding: 2rem 0;
+    color: #FF4B4B;
+}
+
+.showcase {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+}
+
+/* ALL h2 */
+.primary-heading {
+    padding: 1.2rem 0;
+    text-transform: capitalize;
+}
+
+/* All h3 */
+.secondary-heading {
+    padding: .8rem 0;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.lead {
+    padding: .3rem 0;
+    margin: 1rem 0;
+}
+.left-showcase .text-lead, p{
+    font-size: .9rem;
+}
+
+.img-fluid {
+    font-size: .5rem;
+    height:46;
+    width: 153px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.google {
+    position: relative;
+    bottom: 3.2rem;
+    font-size: .5rem;
+}
+
+
+.btn-btn-danger {
+    text-decoration: none;
+    color: #FF4B4B;
+}
+
+.btn-btn-danger:hover {
+    text-decoration: underline;
+}
+
+.btn-btn-white {
+    background-color: #ccc;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 1px 2px 1px #444;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.btn-btn-white:hover{
+    background-color: #c1c1c1;
+}
+
+.question li:hover {
+    color: #FF4B4B;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form-control {
+    padding: 1rem 2rem;
+    outline: 0;
+    border-radius: 5px;
+    border: 1px solid #4444;
+}
+
+/* Footer Section */
+footer {
+    padding: 3rem 0;
+    margin-top: 3rem;
+    background-color: #333;
+}
+
+.footer-showcase {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer .footer-bottom{
+    color: #ccc;
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-self: flex-end;
+}
+
+.lang {
+    outline: 0;
+    border-radius: 2px;
+    border: 1px solid #4444;
+    background-color: #333;
+    color: #ccc;
+    border: 2px solid #ccc;
+    padding: .5rem 1rem;
+}
+
+.privacy ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+ 
